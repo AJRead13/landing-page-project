@@ -9,13 +9,23 @@
     position: fixed;
     background-color: transparent;
 }
+nav {
+    float: right;
+    display: inline-block;
+}
+li  {
+    display: inline;
+    text-align: right;
+}
 #contacts   {
-    position: top right;
+    position: right ;
+    text-align: right;
    font-size: 20px;
    float: right;
 }
 footer   {
     display: inline-block;
+    position: absolute 0;
     
 }
 #space  {
